@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom right, #f0f0f0, #d9d9d9);
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Form Container */
+form {
+    background-color: floralwhite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px; /* Espace ajouté en haut pour centrer le formulaire */
+    width: 400px;
+    border: 1px solid #2F415F; /* Couleur du menu */
+    border-radius: 20px;
+}
+
+/* Form Fields */
+input {
+    background-color: #FFF3F3;
+    padding: 3px;
+    border: 1px solid #F5C5C5;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    display: inline-block;
+    width: 125px;
+}
+
+.field {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+/* Button */
+#bouton {
+    background-color: #2F415F; /* Couleur du menu */
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    background-color: #2F415F; /* Couleur du menu */
+    color: white;
+    margin-top: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 4px;
+}
+
+/* Input Validation */
+input:invalid {
+    border: 2px solid red;
+}
+
+.field > input:valid {
+    background-color: white;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    width: 20px;
+    color: #2F415F; /* Couleur du menu */
+}
